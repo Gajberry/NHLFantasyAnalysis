@@ -1,0 +1,189 @@
+﻿DAY,AWAY,HOME
+Monday,Vancouver Canucks,New Jersey Devils
+Monday,Columbus Blue Jackets,New York Islanders
+Monday,Minnesota,Dallas Stars
+Monday,Detroit Red Wings,Utah Hockey Club
+Tuesday,Ottawa Senators,Buffalo Sabres
+Tuesday,Philadelphia Flyers,Toronto Maple Leafs
+Tuesday,Pittsburgh Penguins,Tampa Bay Lightning
+Tuesday,Nashville Predators,Carolina Hurricanes
+Tuesday,Montreal Canadiens,St. Louis Blues
+Tuesday,Vegas Golden Knights,Minnesota
+Tuesday,Washington Capitals,Winnipeg Jets
+Tuesday,Detroit Red Wings,Colorado Avalanche
+Tuesday,Seattle Kraken,Calgary Flames
+Tuesday,New York Rangers,Los Angeles Kings
+Wednesday,Vancouver Canucks,New York Islanders
+Wednesday,New Jersey Devils,Chicago Blackhawks
+Wednesday,Dallas Stars,Edmonton Oilers
+Wednesday,Boston Bruins,Anaheim Ducks
+Thursday,Pittsburgh Penguins,Buffalo Sabres
+Thursday,Ottawa Senators,Detroit Red Wings
+Thursday,Utah Hockey Club,Tampa Bay Lightning
+Thursday,Montreal Canadiens,Philadelphia Flyers
+Thursday,St. Louis Blues,Nashville Predators
+Thursday,Washington Capitals,Minnesota
+Thursday,Los Angeles Kings,Colorado Avalanche
+Thursday,Dallas Stars,Calgary Flames
+Thursday,Edmonton Oilers,Seattle Kraken
+Thursday,Toronto Maple Leafs,San Jose Sharks
+Friday,Utah Hockey Club,Florida Panthers
+Friday,Montreal Canadiens,Carolina Hurricanes
+Friday,Vancouver Canucks,Columbus Blue Jackets
+Friday,New Jersey Devils,Winnipeg Jets
+Friday,Vegas Golden Knights,Chicago Blackhawks
+Friday,New York Rangers,Anaheim Ducks
+Saturday,Buffalo Sabres,Philadelphia Flyers
+Saturday,New York Islanders,Tampa Bay Lightning
+Saturday,St. Louis Blues,Colorado Avalanche
+Saturday,New Jersey Devils,Minnesota
+Saturday,Vegas Golden Knights,Nashville Predators
+Saturday,Columbus Blue Jackets,Ottawa Senators
+Saturday,Toronto Maple Leafs,Los Angeles Kings
+Saturday,Boston Bruins,Detroit Red Wings
+Saturday,Calgary Flames,Edmonton Oilers
+Saturday,New York Rangers,San Jose Sharks
+Saturday,Dallas Stars,Seattle Kraken
+Sunday,Montreal Canadiens,Florida Panthers
+Sunday,Buffalo Sabres,Washington Capitals
+Sunday,Vancouver Canucks,Winnipeg Jets
+Sunday,Utah Hockey Club,Chicago Blackhawks
+Sunday,Ottawa Senators,Pittsburgh Penguins
+Sunday,New York Islanders,Carolina Hurricanes
+Sunday,Toronto Maple Leafs,Anaheim Ducks
+Sunday,San Jose Sharks,Los Angeles Kings
+Monday,Minnesota,New Jersey Devils
+Monday,Nashville Predators,Philadelphia Flyers
+Monday,Calgary Flames,Colorado Avalanche
+Monday,Dallas Stars,Seattle Kraken
+Tuesday,Washington Capitals,Boston Bruins
+Tuesday,Florida Panthers,Montreal Canadiens
+Tuesday,Buffalo Sabres,Ottawa Senators
+Tuesday,Nashville Predators,Columbus Blue Jackets
+Tuesday,Tampa Bay Lightning,New York Islanders
+Tuesday,Detroit Red Wings,St. Louis Blues
+Tuesday,Calgary Flames,Utah Hockey Club
+Tuesday,Edmonton Oilers,Vegas Golden Knights
+Tuesday,San Jose Sharks,Anaheim Ducks
+Tuesday,Winnipeg Jets,Los Angeles Kings
+Wednesday,Minnesota,New York Rangers
+Wednesday,Washington Capitals,Carolina Hurricanes
+Wednesday,Florida Panthers,Toronto Maple Leafs
+Wednesday,Colorado Avalanche,Chicago Blackhawks
+Wednesday,Seattle Kraken,Vancouver Canucks
+Thursday,Boston Bruins,Montreal Canadiens
+Thursday,Tampa Bay Lightning,Ottawa Senators
+Thursday,Colorado Avalanche,Columbus Blue Jackets
+Thursday,Pittsburgh Penguins,St. Louis Blues
+Thursday,Nashville Predators,Dallas Stars
+Thursday,Los Angeles Kings,Utah Hockey Club
+Thursday,Anaheim Ducks,Calgary Flames
+Thursday,Winnipeg Jets,Vegas Golden Knights
+Thursday,Edmonton Oilers,San Jose Sharks
+Friday,Carolina Hurricanes,Detroit Red Wings
+Friday,Chicago Blackhawks,Washington Capitals
+Friday,Minnesota,New York Islanders
+Saturday,New York Rangers,New Jersey Devils
+Saturday,Florida Panthers,Ottawa Senators
+Saturday,Pittsburgh Penguins,Dallas Stars
+Saturday,Anaheim Ducks,Vancouver Canucks
+Saturday,Edmonton Oilers,Los Angeles Kings
+Saturday,Carolina Hurricanes,Boston Bruins
+Saturday,Tampa Bay Lightning,Buffalo Sabres
+Saturday,Columbus Blue Jackets,Toronto Maple Leafs
+Saturday,Philadelphia Flyers,Montreal Canadiens
+Saturday,Colorado Avalanche,St. Louis Blues
+Saturday,Winnipeg Jets,Utah Hockey Club
+Saturday,Vegas Golden Knights,Calgary Flames
+Saturday,Seattle Kraken,San Jose Sharks
+Sunday,Washington Capitals,New York Islanders
+Sunday,Dallas Stars,Minnesota
+Sunday,Columbus Blue Jackets,Ottawa Senators
+Sunday,Florida Panthers,Detroit Red Wings
+Sunday,Boston Bruins,Buffalo Sabres
+Sunday,Pittsburgh Penguins,Chicago Blackhawks
+Sunday,Montreal Canadiens,Nashville Predators
+Sunday,Vegas Golden Knights,Vancouver Canucks
+Monday,Tampa Bay Lightning,New York Rangers
+Monday,St. Louis Blues,Winnipeg Jets
+Monday,Edmonton Oilers,Anaheim Ducks
+Monday,Seattle Kraken,Los Angeles Kings
+Monday,Calgary Flames,San Jose Sharks
+Tuesday,Carolina Hurricanes,Buffalo Sabres
+Tuesday,Detroit Red Wings,Montreal Canadiens
+Tuesday,Toronto Maple Leafs,Florida Panthers
+Tuesday,Boston Bruins,New Jersey Devils
+Tuesday,Ottawa Senators,Columbus Blue Jackets
+Tuesday,Chicago Blackhawks,Pittsburgh Penguins
+Tuesday,New York Islanders,Nashville Predators
+Tuesday,Vancouver Canucks,Dallas Stars
+Tuesday,Seattle Kraken,Utah Hockey Club
+Tuesday,Vegas Golden Knights,Colorado Avalanche
+Wednesday,Toronto Maple Leafs,Tampa Bay Lightning
+Wednesday,Philadelphia Flyers,New York Rangers
+Wednesday,San Jose Sharks,Minnesota
+Wednesday,St. Louis Blues,Edmonton Oilers
+Wednesday,Calgary Flames,Anaheim Ducks
+Thursday,Chicago Blackhawks,Boston Bruins
+Thursday,Detroit Red Wings,Florida Panthers
+Thursday,Carolina Hurricanes,Washington Capitals
+Thursday,Buffalo Sabres,Columbus Blue Jackets
+Thursday,New York Rangers,New York Islanders
+Thursday,Winnipeg Jets,Dallas Stars
+Thursday,Vancouver Canucks,Colorado Avalanche
+Thursday,Nashville Predators,Utah Hockey Club
+Thursday,Seattle Kraken,Vegas Golden Knights
+Thursday,Anaheim Ducks,Los Angeles Kings
+Friday,Montreal Canadiens,Ottawa Senators
+Friday,Detroit Red Wings,Tampa Bay Lightning
+Friday,Pittsburgh Penguins,New Jersey Devils
+Friday,San Jose Sharks,Edmonton Oilers
+Friday,Minnesota,Calgary Flames
+Saturday,New York Islanders,Philadelphia Flyers
+Saturday,New York Rangers,Carolina Hurricanes
+Saturday,Colorado Avalanche,Los Angeles Kings
+Saturday,Buffalo Sabres,Florida Panthers
+Saturday,Montreal Canadiens,Toronto Maple Leafs
+Saturday,Washington Capitals,Columbus Blue Jackets
+Saturday,Winnipeg Jets,Chicago Blackhawks
+Saturday,Utah Hockey Club,Dallas Stars
+Saturday,Minnesota,Vancouver Canucks
+Saturday,Nashville Predators,Vegas Golden Knights
+Saturday,St. Louis Blues,Seattle Kraken
+Sunday,Philadelphia Flyers,Ottawa Senators
+Sunday,New York Islanders,New Jersey Devils
+Sunday,Boston Bruins,Pittsburgh Penguins
+Sunday,Toronto Maple Leafs,Carolina Hurricanes
+Sunday,Buffalo Sabres,Tampa Bay Lightning
+Sunday,Columbus Blue Jackets,Washington Capitals
+Sunday,Edmonton Oilers,Winnipeg Jets
+Sunday,San Jose Sharks,Calgary Flames
+Sunday,Colorado Avalanche,Anaheim Ducks
+Monday,Chicago Blackhawks,Montreal Canadiens
+Monday,Dallas Stars,Detroit Red Wings
+Monday,New York Rangers,Florida Panthers
+Monday,Utah Hockey Club,Nashville Predators
+Monday,Los Angeles Kings,Edmonton Oilers
+Monday,San Jose Sharks,Vancouver Canucks
+Tuesday,New Jersey Devils,Boston Bruins
+Tuesday,Toronto Maple Leafs,Buffalo Sabres
+Tuesday,Chicago Blackhawks,Ottawa Senators
+Tuesday,Florida Panthers,Tampa Bay Lightning
+Tuesday,Columbus Blue Jackets,Philadelphia Flyers
+Tuesday,Washington Capitals,New York Islanders
+Tuesday,Utah Hockey Club,St. Louis Blues
+Tuesday,Anaheim Ducks,Minnesota
+Tuesday,Vegas Golden Knights,Calgary Flames
+Tuesday,Los Angeles Kings,Seattle Kraken
+Wednesday,Carolina Hurricanes,Montreal Canadiens
+Wednesday,Anaheim Ducks,Winnipeg Jets
+Wednesday,Detroit Red Wings,New Jersey Devils
+Wednesday,Dallas Stars,Nashville Predators
+Wednesday,Vegas Golden Knights,Vancouver Canucks
+Wednesday,Edmonton Oilers,San Jose Sharks
+Thursday,Philadelphia Flyers,Buffalo Sabres
+Thursday,Detroit Red Wings,Toronto Maple Leafs
+Thursday,Carolina Hurricanes,Ottawa Senators
+Thursday,Tampa Bay Lightning,New York Rangers
+Thursday,Washington Capitals,Pittsburgh Penguins
+Thursday,New York Islanders,Columbus Blue Jackets
