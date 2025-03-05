@@ -1,3 +1,6 @@
+## Variables for use in the API
+
+
 time_keys = {"15": "022025", "30": "032025", "AT": "002025"}
 all_stats_names = ["proj"] + list(time_keys.keys())
 

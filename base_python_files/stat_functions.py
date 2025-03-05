@@ -1,6 +1,11 @@
-from api_info import *
+## Functions to analyze the data and simulate scores.
+
 import matplotlib.pyplot as plt
 import pandas as pd
+
+import sys
+sys.path.append("..")
+from base_python_files.api_info import *
 
 def get_player_scores(data,scoring_weights,opp_id = None,):
     skater_data = data[data["Position"] != "GK"].copy()
@@ -53,10 +58,8 @@ def get_week_predictions(teams, played_players,games,skater_cats,scores,swapped_
     original_opp_team = opp_team.copy()
     prop_distances = []
     overall_wins = 0
-    pred_g_num_players = 0
-    pred_opp_num_players = 0
     win_cats = []
-    
+    win_differences = []
     for ind, cat in enumerate(skater_cats):
         g_scores = []
         opp_scores = []
@@ -64,11 +67,12 @@ def get_week_predictions(teams, played_players,games,skater_cats,scores,swapped_
         next_day_passed = False
         pred_final_opp_score = current_opp_scores[cat]
         pred_final_g_score = current_g_scores[cat]
+        pred_g_num_players = 0
+        pred_opp_num_players = 0
         if cat == "average_time_on_ice":
             g_num_players = []
             opp_num_players = []
-            pred_g_num_players = 0
-            pred_opp_num_players = 0
+            
         for day in [
             "Monday",
             "Tuesday",
@@ -82,9 +86,12 @@ def get_week_predictions(teams, played_players,games,skater_cats,scores,swapped_
                 for pair in swapped_days_g[day]:
                     drop = pair[0]
                     if drop is not None:
-                        g_team_drop = g_team.drop(
-                            g_team[g_team["Name"] == drop].iloc[0].name
-                        )
+                        try:
+                            g_team_drop = g_team.drop(
+                                g_team[g_team["Name"] == drop].iloc[0].name
+                            )
+                        except IndexError:
+                            raise ValueError(f"{drop} is not in team")
                         if len(pair) == 2:
                             addition = pair[1]
                             g_team_add = played_players[played_players["Name"] == addition]
@@ -246,6 +253,11 @@ def get_week_predictions(teams, played_players,games,skater_cats,scores,swapped_
                 )
                 / (pred_final_g_score / pred_g_num_players),
             )
+            win_differences.append((
+                    pred_final_g_score / pred_g_num_players
+                    - pred_final_opp_score / pred_opp_num_players
+                )
+                / (pred_final_g_score / pred_g_num_players))
 
         else:
             plt.plot(
@@ -304,9 +316,10 @@ def get_week_predictions(teams, played_players,games,skater_cats,scores,swapped_
                 pred_final_g_score - pred_final_opp_score,
                 (pred_final_g_score - pred_final_opp_score) / pred_final_g_score,
             )
+            win_differences.append((pred_final_g_score - pred_final_opp_score) / pred_final_g_score)
         plt.title(f"{cat} predictions")
         plt.legend()
         g_team = original_g_team.copy()
         opp_team = original_opp_team.copy()
-    return overall_wins,win_cats,(pred_g_num_players,pred_opp_num_players)
+    return overall_wins,win_cats,(pred_g_num_players,pred_opp_num_players),win_differences
 

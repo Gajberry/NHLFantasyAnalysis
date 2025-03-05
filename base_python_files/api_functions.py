@@ -1,8 +1,13 @@
+## Functions to access data from the API and clean it.
+
+
 import requests
 import pandas as pd
 import json
 
-from api_info import *
+import sys
+sys.path.append("..")
+from base_python_files.api_info import *
 
 def retrieve_espn_data(swid,espn_s2,league_id):
     url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/fhl/seasons/2025/segments/0/leagues/{league_id}?view=kona_player_info"
