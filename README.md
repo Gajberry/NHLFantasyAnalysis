@@ -9,7 +9,7 @@ The API knowledge and access came from a combination of experimentation and usin
 * https://github.com/cwendt94/espn-api/blob/master/espn_api/hockey/league.py
 * https://github.com/cwendt94/espn-api/discussions/150
 
-One of the core difficulties is that ESPN changed their API many times over the past decade so there's lots of misinformation on it.
+One of the difficulties is that ESPN changed their API many times over the past decade so there's lots of misinformation on it.
 
 For use in other fantasy leagues you'll need to change:
 * schedule files (use this_weeks_games.csv as an example).
